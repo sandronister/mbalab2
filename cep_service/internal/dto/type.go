@@ -7,6 +7,7 @@ type Cep struct {
 }
 
 type Result struct {
+	City           string `json:"city"`
 	TempCelsius    string `json:"temp_c"`
 	TempFahrenheit string `json:"temp_f"`
 	TempKelvin     string `json:"temp_k"`
