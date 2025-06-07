@@ -3,10 +3,10 @@ package di
 import (
 	"context"
 
-	"githuc.com/sandronister/mbalab2/cep_service/config"
-	clienthttp "githuc.com/sandronister/mbalab2/cep_service/internal/infra/client_http"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/infra/web/handler"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/usecase"
+	"github.com/sandronister/mbalab2/cep_service/config"
+	clienthttp "github.com/sandronister/mbalab2/cep_service/internal/infra/client_http"
+	"github.com/sandronister/mbalab2/cep_service/internal/infra/web/handler"
+	"github.com/sandronister/mbalab2/cep_service/internal/usecase"
 )
 
 func NewCepHandler(env *config.EnviromentVar) *handler.CepHandler {

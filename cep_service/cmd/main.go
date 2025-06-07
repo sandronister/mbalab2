@@ -1,9 +1,9 @@
 package main
 
 import (
-	"githuc.com/sandronister/mbalab2/cep_service/config"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/di"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/infra/web/server"
+	"github.com/sandronister/mbalab2/cep_service/config"
+	"github.com/sandronister/mbalab2/cep_service/internal/di"
+	"github.com/sandronister/mbalab2/cep_service/internal/infra/web/server"
 )
 
 func main() {

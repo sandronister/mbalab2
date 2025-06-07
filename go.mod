@@ -1,14 +1,17 @@
-module githuc.com/sandronister/mbalab2
+module github.com/sandronister/mbalab2
 
 go 1.24.1
 
 require (
 	github.com/labstack/echo v3.3.10+incompatible
+	github.com/sandronister/mbalab1 v0.0.0-20250602164236-991f4ba0b361
 	github.com/spf13/viper v1.20.1
+	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/otel v1.29.0
 )
 
 require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -17,6 +20,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sagikazarmark/locafero v0.7.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.12.0 // indirect

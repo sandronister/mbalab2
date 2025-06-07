@@ -3,7 +3,7 @@ package usecase
 import (
 	"net/http"
 
-	"githuc.com/sandronister/mbalab2/cep_service/internal/dto"
+	"github.com/sandronister/mbalab2/cep_service/internal/dto"
 )
 
 func (u *UCep) Valid(cep string) dto.HttpError {

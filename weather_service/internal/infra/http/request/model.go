@@ -1,17 +1,17 @@
-package clienthttp
+package request
 
 import (
 	"context"
 	"net/http"
 
-	"github.com/sandronister/mbalab2/cep_service/internal/infra/client_http/types"
+	"github.com/sandronister/mbalab2/weather_service/internal/infra/http/types"
 )
 
 type model struct {
 	ctx context.Context
 }
 
-func NewRequestClient(ctx context.Context) types.IRequestService {
+func New(ctx context.Context) types.IRequestService {
 	return &model{
 		ctx: ctx,
 	}

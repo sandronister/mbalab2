@@ -2,8 +2,8 @@ package handler
 
 import (
 	"github.com/labstack/echo"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/dto"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/usecase"
+	"github.com/sandronister/mbalab2/cep_service/internal/dto"
+	"github.com/sandronister/mbalab2/cep_service/internal/usecase"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 )

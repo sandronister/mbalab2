@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo"
-	"githuc.com/sandronister/mbalab2/cep_service/internal/infra/web/handler"
+	"github.com/sandronister/mbalab2/cep_service/internal/infra/web/handler"
 )
 
 type model struct {

@@ -3,7 +3,7 @@ package usecase
 import (
 	"context"
 
-	"githuc.com/sandronister/mbalab2/cep_service/internal/dto"
+	"github.com/sandronister/mbalab2/cep_service/internal/dto"
 )
 
 type ICep interface {
