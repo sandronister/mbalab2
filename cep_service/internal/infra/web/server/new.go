@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo"
+	"githuc.com/sandronister/mbalab2/cep_service/internal/infra/web/handler"
 )
 
 type model struct {
@@ -19,6 +20,10 @@ func NewServer(webPort string) *model {
 	}
 
 	return server
+}
+
+func (s *model) AddRouter(handler *handler.CepHandler) {
+	s.router.POST("/", handler.GetWeather)
 }
 
 func (s *model) Start() error {

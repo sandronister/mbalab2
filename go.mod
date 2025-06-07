@@ -4,7 +4,6 @@ go 1.24.1
 
 require (
 	github.com/labstack/echo v3.3.10+incompatible
-	github.com/openzipkin/zipkin-go v0.4.3
 	github.com/spf13/viper v1.20.1
 	go.opentelemetry.io/otel v1.29.0
 )

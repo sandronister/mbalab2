@@ -11,7 +11,7 @@ type model struct {
 	ctx context.Context
 }
 
-func New(ctx context.Context) types.IRequestService {
+func NewRequestClient(ctx context.Context) types.IRequestService {
 	return &model{
 		ctx: ctx,
 	}
